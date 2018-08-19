@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <title>Portfolio Site - Hadeel Ahmed</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  <!-- Bootstrap Core minified CSS   -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- All the content container -->
+  <div >
+    <!--Header-->
+    <header class="header">
+      <div class="container">
+        
+        <!--Logo-->
+        <div class="logo">
+          <img src="images/logo.jpg" alt="logo" class="img-responsive img-circle">
+        </div>
+
+        <!--Header-->
+        <div class="header_name">
+          <h1>Hadeel Ahmed</h1>
+          <h4>Front-End Ninja</h4>
+        </div>
+      </div>
+    </header>
+
+    <!--Centre Image-->
+    <div class="top text-center">
+      <div class="top_container">
+        <picture>
+            <source media="(max-width:480px)" srcset="images/cc-s.jpg" />
+            <source media="(min-width:481px)" srcset="images/cc-m.jpg" />
+            <source media="(min-width:768px)" srcset="images/cc-l.jpg" />
+            <img src="images/cc-l.jpg" alt="projects" class="main-banner" />
+          </picture>
+      </div>
+    </div>
+    
+    <!--Feature Work Header-->
+    <div class="content">  
+      <section><h3 class="text-mute" >Feature Work</h3>
+      </section>
+    </div>
+
+    <div class="featured">
+      <section>
+        <!--First Project-->
+        <div class="my_work feature-div-shadow" id="project-1">
+          <figure>
+            <picture>
+              <source media="(max-width:480px)" srcset="images/p-s.jpg" />
+              <source media="(min-width:481px)" srcset="images/p-m.jpg" />
+              <source media="(min-width:768px)" srcset="images/p-l.jpg" />
+              <img src="images/p-l.jpg" alt="projects-pix" class="img-responsive featured-projects" data-toggle="modal" data-target="#project1"
+              />
+            </picture>
+            <figcaption class="project-name">First Project: Movie Trailer Website</figcaption>
+          </figure>
+          <p><a href="#">https://github.com/hadeel-k</a></p>
+        </div>
+
+          <!--Project Description-->
+          <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="cat1ModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="cat1ModalLabel">Movie Trailer Website</h4>
+                </div>
+                <div class="modal-body">
+                  This project is for Udacity's Full Stack Developer Nanodegree Program. The website shows a list of my favorite movies with a trailer for each movie.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Second Project-->
+          <div class="my_work feature-div-shadow" id="project-2">
+            <figure>
+              <picture>
+                <source media="(max-width:480px)" srcset="images/c-s.jpg" />
+                <source media="(min-width:481px)" srcset="images/c-m.jpg" />
+                <source media="(min-width:768px)" srcset="images/c-l.jpg" />
+                <img src="images/c-l.jpg" alt="projects-pix" class="img-responsive featured-projects" data-toggle="modal" data-target="#project2"
+                />
+              </picture>
+              <figcaption class="project-name">Second Project: Soon</figcaption>
+            </figure>
+            <p><a href="#">https://github.com/hadeel-k</a></p>
+          </div>
+
+          <!--Project Description-->
+          <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="food2ModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="food2ModalLabel">Second Project</h4>
+                </div>
+                <div class="modal-body">
+                  The secound project is coming soon.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Third Project-->
+          <div class="my_work feature-div-shadow " id="project-3">
+            <figure>
+              <picture>
+                <source media="(max-width:480px)" srcset="images/o-s.jpg" />
+                <source media="(min-width:481px)" srcset="images/o-m.jpg" />
+                <source media="(min-width:768px)" srcset="images/o-l.jpg" />
+                <img src="images/o-l.jpg" alt="projects-pix" class="img-responsive featured-projects" data-toggle="modal" data-target="#project3"
+                />
+              </picture>
+              <figcaption class="project-name">Third Project: Soon</figcaption>
+            </figure>
+            <p><a href="#">https://github.com/hadeel-k</a></p>
+          </div>
+
+          <!--Project Description-->
+          <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="food3ModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="food3ModalLabel">Third Project</h4>
+                </div>
+                <div class="modal-body">
+                  The third project is coming soon.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </div>
+    
+  </div>
+  <div class="footer">
+    <section>
+      <footer>
+      <p>Made with ❤ By Hadeel Ahmed - 2018</p>
+    </footer> 
+    </section>
+  </div>
+</body>
+
+</html>
